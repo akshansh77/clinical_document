@@ -778,7 +778,7 @@ def render_patient_card(
 
     # Combine
     full_html = header_html + body_html + footer_html + '</div>'
-    st.markdown(full_html, unsafe_allow_html=True)
+    st.html(full_html)
 
     # Raw JSON expander
     with st.expander(f"Raw JSON — {extraction.patient_name.value}", expanded=False):
@@ -821,7 +821,7 @@ def render_comparison_card(comparison: MultiDocComparison):
             """
 
     html += '</div>'
-    st.markdown(html, unsafe_allow_html=True)
+    st.html(html)
 
     with st.expander("Raw Comparison JSON", expanded=False):
         st.json(json.loads(comparison.model_dump_json()))

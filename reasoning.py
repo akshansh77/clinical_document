@@ -141,7 +141,7 @@ def _parse_json_response(raw_text: str) -> dict:
 def assess_risk(
     extraction: ClinicalExtraction,
     openai_client,
-    model: str = "nvidia/nemotron-3-ultra-550b-a55b",
+    model: str = "nvidia/nemotron-3.5-lightning-30b-a3b",
     max_retries: int = 2,
 ) -> Optional[RiskAssessment]:
     """
@@ -237,7 +237,7 @@ def assess_risk(
 def compare_documents(
     extractions: list[ClinicalExtraction],
     openai_client,
-    model: str = "nvidia/nemotron-3-ultra-550b-a55b",
+    model: str = "nvidia/nemotron-3.5-lightning-30b-a3b",
     max_retries: int = 2,
 ) -> Optional[MultiDocComparison]:
     """

@@ -17,7 +17,7 @@ This system follows a three-stage pipeline to ensure clinical reasoning is appli
 
 | Component | Tool | Justification |
 |:---|:---|:---|
-| **LLM Reasoning & Extraction** | NVIDIA Nemotron (`nemotron-3-ultra-550b-a55b`) | A 550B-parameter reasoning model accessed via the NVIDIA API. Chosen for its advanced reasoning capabilities required to accurately assess clinical risk and reliably output strict Pydantic JSON schemas. |
+| **LLM Reasoning & Extraction** | NVIDIA Nemotron (`nemotron-3.5-lightning-30b-a3b`) | A 30B-parameter MoE model accessed via the NVIDIA API. Chosen as the fastest model capable of advanced reasoning required to accurately assess clinical risk and reliably output strict Pydantic JSON schemas. |
 | **User Interface** | Streamlit | Allows for rapid prototyping of a single-page app with file upload capabilities and rich custom HTML/CSS rendering for premium aesthetics. |
 | **Parsing Pipeline** | pdfplumber, pytesseract, pdf2image | Provides a robust fallback mechanism to handle various clinical document formats (digital PDFs, scanned images, and raw text). |
 | **Data Validation** | Pydantic v2 | Enforces strict typing on the LLM output, automatically catching malformed JSON responses and ensuring the UI always receives valid structured data. |

@@ -154,7 +154,7 @@ def _collect_streaming_content(stream) -> str:
 def extract_clinical_data(
     document_text: str,
     openai_client,
-    model: str = "nvidia/nemotron-3-ultra-550b-a55b",
+    model: str = "nvidia/nemotron-3.5-lightning-30b-a3b",
     max_retries: int = 2,
 ) -> Optional[ClinicalExtraction]:
     """

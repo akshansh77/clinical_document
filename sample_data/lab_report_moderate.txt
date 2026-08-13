@@ -1,0 +1,108 @@
+══════════════════════════════════════════════════════════════════
+                   LABORATORY REPORT
+              Lakewood Family Medicine Clinic — Lab Services
+══════════════════════════════════════════════════════════════════
+
+PATIENT INFORMATION
+───────────────────
+Name:               Robert James Chen
+Date of Birth:      11/22/1958
+Age:                67
+Sex:                Male
+MRN:                LKW-2026-33105
+Ordering Physician: Dr. Anita Kapoor, MD — Internal Medicine
+Collection Date:    08/05/2026 09:30 AM (fasting)
+Report Date:        08/06/2026 02:15 PM
+
+CLINICAL INDICATION
+────────────────────
+New patient labs. History of hypertension, type 2 diabetes mellitus, and
+hyperlipidemia. Establish baseline values. Fasting specimen.
+
+═══════════════════════════════════════════════════════════════
+                    RESULTS
+═══════════════════════════════════════════════════════════════
+
+HEMOGLOBIN A1C
+───────────────
+Test                    Result      Reference Range     Flag
+────────────────────    ──────      ───────────────     ────
+HbA1c                  7.8%        <5.7% (normal)      HIGH ↑
+                                   5.7–6.4% (prediab)
+                                   ≥6.5% (diabetes)
+Estimated Avg Glucose  177 mg/dL
+
+FASTING LIPID PANEL
+─────────────────────
+Test                    Result      Reference Range     Flag
+────────────────────    ──────      ───────────────     ────
+Total Cholesterol       248 mg/dL   <200 mg/dL          HIGH ↑
+LDL Cholesterol         158 mg/dL   <100 mg/dL          HIGH ↑
+HDL Cholesterol         38 mg/dL    >40 mg/dL           LOW  ↓
+Triglycerides           262 mg/dL   <150 mg/dL          HIGH ↑
+VLDL                    52 mg/dL    5–40 mg/dL          HIGH ↑
+
+COMPREHENSIVE METABOLIC PANEL (CMP)
+─────────────────────────────────────
+Test                    Result      Reference Range     Flag
+────────────────────    ──────      ───────────────     ────
+Sodium                  141 mEq/L   136–145 mEq/L       Normal
+Potassium               4.6 mEq/L   3.5–5.0 mEq/L      Normal
+Chloride                102 mEq/L   98–106 mEq/L        Normal
+CO2 (Bicarbonate)       25 mEq/L    23–29 mEq/L         Normal
+BUN                     22 mg/dL    7–20 mg/dL          HIGH ↑
+Creatinine              1.1 mg/dL   0.7–1.3 mg/dL       Normal
+eGFR                    72 mL/min   >60 mL/min          Normal
+Fasting Glucose         148 mg/dL   70–100 mg/dL        HIGH ↑
+Calcium                 9.4 mg/dL   8.5–10.5 mg/dL      Normal
+Total Protein           7.2 g/dL    6.0–8.3 g/dL        Normal
+Albumin                 4.1 g/dL    3.5–5.5 g/dL        Normal
+Total Bilirubin         0.7 mg/dL   0.1–1.2 mg/dL       Normal
+Alkaline Phosphatase    72 U/L      44–147 U/L          Normal
+AST                     29 U/L      10–40 U/L           Normal
+ALT                     35 U/L      7–56 U/L            Normal
+
+COMPLETE BLOOD COUNT (CBC)
+───────────────────────────
+Test                    Result      Reference Range     Flag
+────────────────────    ──────      ───────────────     ────
+WBC                     7,200/μL    4,500–11,000/μL     Normal
+RBC                     4.82 M/μL   4.35–5.65 M/μL      Normal
+Hemoglobin              14.8 g/dL   13.5–17.5 g/dL      Normal
+Hematocrit              43.2%       38.3–48.6%          Normal
+MCV                     89.6 fL     80–100 fL           Normal
+Platelet Count          245 K/μL    150–400 K/μL        Normal
+
+THYROID FUNCTION
+─────────────────
+Test                    Result      Reference Range     Flag
+────────────────────    ──────      ───────────────     ────
+TSH                     3.1 mIU/L   0.4–4.0 mIU/L      Normal
+
+URINALYSIS
+───────────
+Protein:    Negative
+Blood:      Negative
+Glucose:    1+ (abnormal — consistent with diabetes)
+Specific Gravity: 1.022
+pH:         6.0
+
+═══════════════════════════════════════════════════════════════
+
+INTERPRETIVE COMMENTS
+──────────────────────
+1. HbA1c 7.8% indicates suboptimal glycemic control. Current ADA target for
+   most adults is <7.0%.
+2. Lipid panel significantly above target despite atorvastatin therapy.
+   LDL 158 is well above the <100 mg/dL goal for a patient with diabetes
+   and cardiovascular risk factors. Consider dose adjustment or addition
+   of ezetimibe.
+3. Fasting glucose 148 mg/dL corroborates inadequate diabetes control.
+4. Mild BUN elevation (22) with normal creatinine — may reflect dehydration
+   or high protein intake. Not clinically concerning in isolation.
+5. CBC and thyroid function within normal limits.
+
+══════════════════════════════════════════════════════════════════
+Reviewed and released by: Dr. Karen Walsh, MD — Laboratory Medicine
+Date/Time: 08/06/2026 02:15 PM EST
+══════════════════════════════════════════════════════════════════

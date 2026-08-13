@@ -1,0 +1,8 @@
+openai>=1.30.0
+streamlit>=1.45.0
+pdfplumber>=0.11.0
+pytesseract>=0.3.13
+pdf2image>=1.17.0
+pydantic>=2.10.0
+Pillow>=11.0.0
+python-dotenv>=1.0.0

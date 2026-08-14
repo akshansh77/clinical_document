@@ -55,32 +55,4 @@ The UI was designed to feel like a **state-of-the-art premium medical dashboard*
 
 ## 📄 Example Input and Output
 
-### Input: Urgent Lab Report
-A lab report for James Okafor (51M) presenting with confusion and palpitations. The raw document contains critically abnormal values including Potassium 6.8 mEq/L and eGFR 19 mL/min.
-
-### Output: Structured Clinical Reasoning
-**1. Extraction (Abbreviated JSON):**
-```json
-"vital_signs": [
-  {"name": {"value": "Potassium", "confidence": 1.0, "evidence_snippet": "Potassium"},
-   "value": {"value": "6.8", "confidence": 1.0, "evidence_snippet": "6.8 mEq/L"},
-   "status": {"value": "abnormal", "confidence": 1.0, "evidence_snippet": "CRITICAL HIGH ↑↑"}},
-  {"name": {"value": "eGFR", "confidence": 1.0, "evidence_snippet": "eGFR"},
-   "value": {"value": "19", "confidence": 1.0, "evidence_snippet": "19 mL/min"},
-   "status": {"value": "abnormal", "confidence": 1.0, "evidence_snippet": "CRITICAL LOW ↓↓"}}
-]
-```
-
-**2. Risk Assessment & Action (JSON):**
-```json
-{
-  "risk_level": "Urgent",
-  "justification": "Patient has critically elevated potassium (6.8 mEq/L) and severely reduced kidney function (eGFR 19) requiring immediate medical intervention.",
-  "driving_factors": [
-    "Potassium 6.8 mEq/L (critical high)",
-    "eGFR 19 mL/min (Stage 4 CKD)"
-  ],
-  "recommended_next_step": "Escalate to on-call physician immediately — initiate emergent potassium-lowering protocol and obtain nephrology consultation."
-}
-```
-*In the UI, this is presented as a floating glass card with a pulsing red "🚨 URGENT" badge, where abnormal values are highlighted in crimson, and the recommended next step is placed in a highlighted action box.*
+Check out the [SAMPLES.md](./SAMPLES.md) file in this repository for a detailed breakdown of different clinical documents, including screenshots of the premium UI and the structured JSON output the system generates for both Urgent and Routine cases.

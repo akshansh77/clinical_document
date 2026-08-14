@@ -843,20 +843,8 @@ def main():
 
     # ── Sidebar
     with st.sidebar:
-        st.markdown("### ⚙️ Configuration")
-
-        # API Key
+        # API Key — loaded silently from .env file
         api_key = os.environ.get("NVIDIA_API_KEY", "")
-        api_key_input = st.text_input(
-            "NVIDIA API Key",
-            value=api_key,
-            type="password",
-            help="Your NVIDIA API key. Set NVIDIA_API_KEY env var or paste here.",
-        )
-        if api_key_input:
-            api_key = api_key_input
-
-        st.markdown("---")
 
         # File uploader
         st.markdown("### 📄 Upload Documents")
@@ -926,7 +914,7 @@ def main():
     if not api_key:
         st.markdown(
             '<div class="info-box">'
-            "🔑 Please provide your NVIDIA API key in the sidebar to get started."
+            "🔑 No API key detected. Please set <code>NVIDIA_API_KEY</code> in your <code>.env</code> file and restart the app."
             "</div>",
             unsafe_allow_html=True,
         )
